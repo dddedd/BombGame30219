@@ -29,6 +29,19 @@ public class PlayerController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Obstacle") { ani.SetTrigger("damage"); }
+        if (collision.collider.tag == "Obstacle") 
+        { 
+            ani.SetTrigger("damage");
+            GameManager.instance.AddScore(-1);
+
+
+
+        }
+
+        if (collision.collider.tag == "Enermy")
+        {
+            ani.SetTrigger("attack01");
+            GameManager.instance.OnPlayerDead();
+        }
     }
 }
