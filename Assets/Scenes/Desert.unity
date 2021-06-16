@@ -5115,7 +5115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f6749050d9fd445bcb92b849b7a787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermyPrefab: {fileID: 4806455993649554771, guid: 0b595d3a8ad87244c99861db6c0e5e0c, type: 3}
+  enermyPrefab: {fileID: 6855488226843561147, guid: 464cc7c4f7ea10b47a36d7848aa9ca9a, type: 3}
 --- !u!4 &1510297583
 Transform:
   m_ObjectHideFlags: 0

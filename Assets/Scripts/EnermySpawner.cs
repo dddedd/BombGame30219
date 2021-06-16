@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnermySpawner : MonoBehaviour
 {
     public GameObject enermyPrefab;
-    private int count = 30; 
+    private int count = 100; 
     private GameObject[] enermys;
 
     void Start()
